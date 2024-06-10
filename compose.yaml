@@ -1,0 +1,19 @@
+services:
+  db:
+    build: ./db
+    volumes:
+      - mysqldata:/var/lib/mysql
+  web:
+    build: ./web
+    ports:
+      - 80:80
+  traefik:
+    build: ./traefik
+    volumes:
+      - ./traefik/traefik.yml:/etc/traefik/traefik.yml
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8080:8080
+
+volumes:
+  mysqldata:
