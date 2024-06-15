@@ -35,42 +35,47 @@ Docker Compose: v2.27
 
 
 
-.. ## Passo 1. Download dos arquivos de configuração
+Passo 1. Download dos arquivos de configuração
+-------------------------------------------------
 
-.. Faça o clone do repositório com os arquivos de configuração do ambiente, em uma pasta de nome “managyee”, com o comando abaixo.
+Faça o clone do repositório com os arquivos de configuração do ambiente, em uma pasta de nome “managyee”, com o comando abaixo.
 
-.. ```git clone https://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@github.com/mariaporcina/managyee-setup.git managyee```
+```git clone https://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@github.com/mariaporcina/managyee-setup.git managyee```
 
-.. Em seguida, acesse a pasta ```managyee/```.
+Em seguida, acesse a pasta ```managyee/```.
 
-.. ## Passo 2. Download dos arquivos da aplicação
+Passo 2. Download dos arquivos da aplicação
+-------------------------------------------
 
-.. Acesse a pasta web/ e faça o clone do repositório com os arquivos da aplicação CRUD, em uma pasta de nome “www”, com o comando abaixo.
+Acesse a pasta web/ e faça o clone do repositório com os arquivos da aplicação CRUD, em uma pasta de nome “www”, com o comando abaixo.
 
-.. ```git clone https://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@github.com/mariaporcina/company-management.git www```
+```git clone https://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@github.com/mariaporcina/company-management.git www```
 
-.. ## Passo 3. Confira a configuração da conexão com o banco de dados
+Passo 3. Confira a configuração da conexão com o banco de dados
+---------------------------------------------------------------
 
-.. Acesso o arquivo ```managyee/web/www/config.php``` e confira se o server, username, password e name do banco de dados estão corretos. Se necessário, corrija.
+Acesso o arquivo ```managyee/web/www/config.php``` e confira se o server, username, password e name do banco de dados estão corretos. Se necessário, corrija.
 
-.. ## Passo 4. Faça uma cópia do arquivo db.sql para a pasta /db
+Passo 4. Faça uma cópia do arquivo db.sql para a pasta /db
+----------------------------------------------------------
 
-.. Volte para a pasta raiz da configuração (```managyee/```).
+Volte para a pasta raiz da configuração (```managyee/```).
 
-.. Faça uma cópia do arquivo ```managyee/web/www/db.sql``` para dentro da pasta managyee/db utilizando o comando abaixo:
+Faça uma cópia do arquivo ```managyee/web/www/db.sql``` para dentro da pasta managyee/db utilizando o comando abaixo:
 
-.. ```cp ./web/www/db.sql ./db/db.sql```
+```cp ./web/www/db.sql ./db/db.sql```
 
-.. ## Passo 5. Inicie a aplicação
+Passo 5. Inicie a aplicação
+---------------------------
 
-.. Garanta que está dentro da pasta ```managyee/``` ou uma das suas pastas filhas e utilize o comando abaixo para inicializar a aplicação:
+Garanta que está dentro da pasta ```managyee/``` ou uma das suas pastas filhas e utilize o comando abaixo para inicializar a aplicação:
 
-.. ```docker compose up -d```
+```docker compose up -d```
 
-.. Caso necessário, para parar a aplicação, utilize o comando:
+Caso necessário, para parar a aplicação, utilize o comando:
 
-.. ```docker compose down```
+```docker compose down```
 
-.. Para remover por completo, inclusive os volumes, utilize:
+Para remover por completo, inclusive os volumes, utilize:
 
-.. ```docker compose down --rmi all -v```
+```docker compose down --rmi all -v```
