@@ -41,7 +41,6 @@ Passo 1. Download dos arquivos de configuração
 Faça o clone do repositório com os arquivos de configuração do ambiente, em uma pasta de nome “managyee”, com o comando abaixo.
 
 .. code-block::
-
 git clone https://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@github.com/mariaporcina/managyee-setup.git managyee
 
 Em seguida, acesse a pasta ``managyee/``.
