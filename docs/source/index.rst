@@ -5,7 +5,9 @@ Ambiente
 --------
 
 OS: Ubuntu 22.04 LTS (Jammy)
+
 Docker: v26.1.3
+
 Docker Compose: v2.27
 
 Passo 1. Download dos arquivos de configuração
