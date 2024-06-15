@@ -25,10 +25,10 @@ Docker Compose: v2.27
 .. Contents
 .. --------
 
-.. .. toctree::
+.. toctree::
 
-..    usage
-..    api
+   usage
+   api
 
 
 
