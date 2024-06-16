@@ -16,6 +16,9 @@ Docker: v26.1.3
 
 Docker Compose: v2.27
 
+Sumário:
+--------
+
 .. toctree::
 
    setup

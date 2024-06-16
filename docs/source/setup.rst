@@ -1,3 +1,6 @@
+Configurações
+=============
+
 DNS
 ===
 
@@ -45,3 +48,16 @@ Configurar registros do domínio:
 >>> db IN A <inserir IP de onde o banco de dados está hospedado>
 >>> traefik IN A <inserir IP de onde a ferramenta está hospedada>
 >>> dns IN A <inserir IP de onde o DNS está configurado>
+
+Credenciais
+===========
+
+Banco de dados
+--------------
+
+As credenciais do banco de dados devem ser configuradas no arquivo ``mangyee/web/www/config.php``:
+
+- **Servidor do banco**: db
+- **Nome do usuário**: db_user
+- **Senha**: M@company123
+- **Nome do banco**: managyee
