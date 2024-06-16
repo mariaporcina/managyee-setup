@@ -64,7 +64,6 @@ Configurar registros do domínio:
 >>> traefik IN A <inserir IP de onde a ferramenta está hospedada>
 >>> dns IN A <inserir IP de onde o DNS está configurado>
 
-
 Tutorial: rodando aplicação CRUD - Docker + Docker Compose + Dockerfile
 =======================================================================
 
@@ -96,7 +95,7 @@ Tutorial: rodando aplicação CRUD - Docker + Docker Compose + Dockerfile
 
 
 Passo 1. Download dos arquivos de configuração
--------------------------------------------------
+----------------------------------------------
 
 Faça o clone do repositório com os arquivos de configuração do ambiente, em uma pasta de nome “managyee”, com o comando abaixo.
 
